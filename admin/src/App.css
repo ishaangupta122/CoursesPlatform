@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+@import "primereact/resources/primereact.min.css";                 
+@import "primeicons/primeicons.css";
+@import 'bootstrap/dist/css/bootstrap.css';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #f9f9f9;
+}
+
+.users-page h1{
+  margin: 20px auto;
+  text-align: center;
+}
+
+.users-page h3{
+  margin: 20px auto;
+  text-align: center;
+}
+
+.users-page .users-list{
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+
+.users-page .users-list table .btn{
+  margin: 0 5px;
+}
+
+.users-page .addNewUser{
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.users-page .addNewUser .btn i{
+  padding: 0 10px;
+}
+
+.user-view h1{
+  margin: 0;
+  margin-bottom: 20px;
+  color:#333;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.user-view .box{
+  padding: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-view p{
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.user-view p span{
+  display: inline-block;
+  min-width: 130px;
+}
+
+.user-view p span:first-child{
+  color:#6c757d;
+}
+
+.user-view p span:last-child{
+  color:#333;
+  font-weight: bold;
+}
+
+._add-view p{
+  border-bottom: none;
+}
+
+._add-view p input{
+  margin: 5px 0;
+  font-size: 14px;
+}
