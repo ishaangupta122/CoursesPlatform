@@ -21,6 +21,8 @@ Follow these steps to set up the project on your local machine.
 git clone https://github.com/ishaangupta122/CoursesApp.git
 ```
 
+### **Setup all the .env files by renaming .env.example to .env**
+
 ---
 
 ## **Backend Setup**
@@ -28,7 +30,7 @@ git clone https://github.com/ishaangupta122/CoursesApp.git
 ```sh
 cd backend
 npm install
-node app.js
+npm run start
 ```
 
 ---
@@ -48,7 +50,7 @@ npm run dev
 ```sh
 cd admin
 npm install
-npm start
+npm run dev
 ```
 
 ---
