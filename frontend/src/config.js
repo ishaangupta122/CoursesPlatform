@@ -1,4 +1,5 @@
-export const BASE_URL = 'http://localhost:3001';
-export const DEFAULT_IMG_URL = 'https://media.geeksforgeeks.org/wp-content/uploads/20221026130806/7BestComputerScienceCoursestoTakein2022.png';
-export const razorpay_key_id = 'rzp_test_yRICbmzmpY7nEE';
-export const razorpay_key_secret = 'mz7kC7ksyimeXGY0YtJKKZq2';
+export const BASE_URL = import.meta.env.VITE_BASE_URL;
+export const DEFAULT_IMG_URL = import.meta.env.VITE_DEFAULT_IMG_URL;
+export const DEFAULT_USER_IMG_URL = import.meta.env.VITE_DEFAULT_USER_IMG_URL;
+export const razorpay_key_id = import.meta.env.VITE_RAZORPAY_KEY_ID;
+export const razorpay_key_secret = import.meta.env.VITE_RAZORPAY_KEY_SECRET;

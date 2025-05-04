@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import axios from "axios";
-import { BASE_URL, DEFAULT_IMG_URL } from "../config.js";
+import { BASE_URL, DEFAULT_USER_IMG_URL } from "../config.js";
 
 const Alumnis = () => {
   const [alumnis, setAlumnis] = useState([]);
@@ -50,13 +49,12 @@ const Alumnis = () => {
               {alumnis.map((alumni) => (
                 <div
                   className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 flex items-center justify-center"
-                  key={alumni._id}
-                >
+                  key={alumni._id}>
                   <article className="flex flex-col overflow-hidden rounded-lg shadow-lg bg-white">
                     <img
                       alt="Placeholder"
                       className="block w-full h-[300px] object-cover"
-                      src={alumni.image || DEFAULT_IMG_URL}
+                      src={alumni.image || DEFAULT_USER_IMG_URL}
                     />
                     <div className="flex flex-col flex-1 p-4">
                       <header className="flex items-center justify-between mb-2">

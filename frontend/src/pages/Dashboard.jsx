@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import { BASE_URL } from "../config.js";
+import { BASE_URL, DEFAULT_IMG_URL } from "../config.js";
 
 const Dashboard = () => {
   const [loading, setLoading] = useState(false);
